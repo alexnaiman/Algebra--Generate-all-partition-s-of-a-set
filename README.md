@@ -24,8 +24,8 @@ If we write the encodings backwards we obtain:
 
 **Be aware that** the number 113 is missing because the encodings 112 and 113 translate to the same partitions
 
-So, for a partition we just need to generate all the numbers with 1-n "digits"  and the difference between the biggest
+So, for a partition we just need to generate all the numbers with n-1 "digits"  and the difference between the biggest
 two digits should be 1
 
-##### If the number of elements of the set is to big(>10) we generate only the number of partitions of that set using [Bell's triangle](https://en.wikipedia.org/wiki/Bell_triangle)
+#### If the number of elements of the set is to big(>10) we generate only the number of partitions of that set using [Bell's triangle](https://en.wikipedia.org/wiki/Bell_triangle)
 
